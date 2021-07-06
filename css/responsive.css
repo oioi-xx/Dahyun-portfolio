@@ -1,0 +1,46 @@
+@media screen and (max-width:1130px) {
+    #third_section{width: 100%; height: 1290px;}
+    .about_img{display: none;}   
+    .about_text{width: 100%;margin-top: 100px;padding: 20px 117px; }
+
+    
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .progress_wrap{flex-direction: column;} #progress,#progress1,#progress2,#progress3,#progress4,#progress5,#progress6,#progress7,#progress8{width: 50px;height: 50px;}
+    .web_portfolio{flex-direction: column}
+    .web60{width: 100%}
+    .web40{width: 100%}
+}
+
+
+@media screen and (max-width:900px) {
+    .main_img{width: 100%;}
+    #first-section>div h1{font-size: 120px; color:#fff; width: 100%;}
+    #first-section>div h3{ font-style: normal;font-weight: normal;font-size: 14px;color: #eeeeee; margin-bottom: 20px;}
+    #first-section>div h4{ font-style: normal;font-weight: normal;font-size: 11px;color: #ddd;}
+    .filter{display: block;}
+    ul.menu{display: none}
+    nav .modal-menu{display: block}
+    .fixed_menu{background: rgba(0, 0, 0, 0);}
+    .logo{display: none}
+    .toggle{display: block}
+   
+}
+@media screen and (max-width:770px) {
+    .about_text{width: 100%; height: 120%; margin-top:0px;padding: 0 20px }
+    section:not(#sectionPin) {padding: 0px 10vw}
+    
+}
+
+@media screen and (max-width:450px) {
+    .progress .ect{display: none}
+
+}
+
+@media screen and (max-width:400px) {
+     section:not(#sectionPin) {padding: 0px 6vw}
+
+}
